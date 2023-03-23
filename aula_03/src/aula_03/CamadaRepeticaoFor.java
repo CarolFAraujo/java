@@ -23,7 +23,6 @@ public class CamadaRepeticaoFor {
 		System.out.println("Total de números ímpares: " + impares);
 		
 		
-		
 
 	}
 
