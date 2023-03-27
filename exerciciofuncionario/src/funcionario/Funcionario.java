@@ -14,6 +14,8 @@ public class Funcionario {
 		this.salario = salario;
 		this.departamento = departamento;
 		this.idade = idade;
+		
+	
 	}
 
 	public String getNome() {
