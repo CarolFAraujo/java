@@ -1,6 +1,8 @@
 package testacliente;
 
 import aula_07.Cliente;
+import aula_07.PessoaFisica;
+import aula_07.PessoaJuridica;
 
 public class TestaCliente {
 
@@ -19,7 +21,16 @@ public class TestaCliente {
 
         System.out.println("Informações do cliente 2:");
         cliente2.visualizar();
-
+        
+        System.out.println();
+        
+        PessoaFisica p1 = new PessoaFisica("Carolina", "Rua Joana, 123", "(45) 12345-6789", "carolina@gmail.com", 20, "PF");
+        p1.visualizar();
+        
+        System.out.println();
+        
+        PessoaJuridica pj = new PessoaJuridica("Carolina", "Rua Joana, 123", "(45) 12345-6789", "carolina@gmail.com", 20, "MEI");
+        pj.visualizar();
 	}
 
 }
